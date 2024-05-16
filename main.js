@@ -12,5 +12,5 @@ updateClock(); // Initial call
 setInterval(updateClock, 1000);
 
 document.getElementById("notesButton").addEventListener("click", function() {
-  window.location.href = "https://panerusagar.github.io/Notes";
+  window.location.href = "https://joshibhuwan1.github.io/notes";
 });
