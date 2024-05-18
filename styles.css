@@ -81,3 +81,23 @@ body {
     height: 100vh; /* Ensures the body takes full viewport height */
     margin: 0; /* Removes default body margin */
 }
+#notesButton {
+    display: inline-flex;
+    align-items: center;
+    background-color: #f0f0f0; /* Adjust the background color as needed */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px; /* Optional: For rounded corners */
+}
+
+#notesButton img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px; /* Space between image and text */
+}
+
+#notesButton:hover {
+    background-color: #e0e0e0; /* Adjust hover color as needed */
+}
