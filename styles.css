@@ -1,1 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.profile-pic {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic img {
+    width: 150px; /* Increased size */
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    /* Load image faster */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+.clock-top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.social-heading {
+    text-align: center;
+    font-weight: bold;
+}
+
+.social-links {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social-links ul {
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li {
+    display: inline-block; /* Changed to inline-block for mobile */
+    margin-right: 10px; /* Added margin-right for spacing */
+}
+
+.social-links li:last-child {
+    margin-right: 0; /* Remove margin-right for the last item */
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.centered-text {
+    text-align: center;
+    margin-top: 20px;
+  }
