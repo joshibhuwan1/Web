@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study_Hub</title>
+    <link rel="icon" type="image/png" href="im.png">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="clock" class="clock-top-right"></div>
+        <div class="profile-pic">
+            <img src="im.png" alt="Profile Picture">
+            <h2><b>Sagar Paneru</b></h2>
+        </div>
+        <h1><b>Welcome</b></h1>
+        
+        <p class="social-heading">Connect with me:</p>
+        <div class="social-links">
+            <ul>
+                <li><a href="https://www.facebook.com/sagar.paneru.2063" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                <li><a href="https://chat.whatsapp.com/Cwv5gnfLCxJ1Ivz68Plcik" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="centered-text">
+            <p>© All Rights Reserved.</p>
+        </div>
+    </div>
+    <button id="notesButton">Work</button>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="smooth-scroll.js"></script>
+    <script src="wow.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script>
+        new WOW().init();
+        $(document).ready(function(){
+            $('.scroll-link').on('click', function(e){
+                e.preventDefault();
+                $('html, body').animate({scrollTop: $($.attr(this, 'href')).offset().top - 50}, 750);
+            });
+            $('.nav-item').on('click', function(){
+                $('.nav-item').removeClass('active');
+                $(this).addClass('active');
+            });
+        });
+    </script>
+    <script src="main.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
